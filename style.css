@@ -1,0 +1,38 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+h1 {
+  color: #2c3e50;
+}
+h2 {
+  color: #555;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.dropdown {
+  margin-bottom: 20px;
+}
+select {
+  padding: 8px;
+  font-size: 16px;
+}
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+}

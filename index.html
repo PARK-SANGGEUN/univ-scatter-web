@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모두의 2025 학생부종합전형 입시결과 산포도</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1>모두의 2025 학생부종합전형 입시결과 산포도</h1>
+    <h2>Copyright@All Teachers (feat. 원주여고 김신우)</h2>
+
+    <div class="dropdown">
+      <label for="univ-select">대학 선택:</label>
+      <select id="univ-select" onchange="updateImages()">
+        <option value="">-- 대학 선택 --</option>
+      </select>
+    </div>
+
+    <div id="image-container" class="gallery"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
